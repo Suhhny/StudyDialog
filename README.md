@@ -1,1 +1,9 @@
-# StudyDialog
+StudyDialog
+===========
+
+
+
+
+
+* ##Redux
+* ##Javascript

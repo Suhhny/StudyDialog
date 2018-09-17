@@ -5,5 +5,5 @@ StudyDialog
 
 
 
-* ##Redux
-* ##Javascript
+* Redux
+* Javascript

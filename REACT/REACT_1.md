@@ -1,4 +1,4 @@
-REACT
+REACT_1
 ===================
 
 App.js
@@ -8,14 +8,13 @@ App.js
 
 <p>
 
+* 함수를 통해서 만들기.
 * 클래스를 통해서 만들기.
 
 <pre><code>class App extends Component {
 
 }
 </code></pre>
-
-* 함수를 통해서 만들기.
 
 </p>
 
@@ -54,7 +53,7 @@ index.js
 
 <p>
 
-* 첫번째 파라미터: 렌더링 할 결과물 (<App />)
+* 첫번째 파라미터: 렌더링 할 결과물 (App)
 * 두번째 파라미터: 컴포넌트를 어떤 DOM에 그릴지. (root)
 
 <pre><code>ReactDOM.render(<App />, document.getElementById('root'));

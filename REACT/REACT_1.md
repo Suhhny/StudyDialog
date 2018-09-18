@@ -159,19 +159,11 @@ JSX STYLE
 
 * className을 이용한 style 편집
 
-~~~~~~
+~~~~~~~~~~~~
 import './App.css'
 
 <div className = "App">
     blah blah
 </div>   
-~~~~
-
-
-
-
-
-
-
-
+~~~~~~~~~~~~
 

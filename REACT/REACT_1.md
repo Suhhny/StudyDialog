@@ -4,7 +4,7 @@ REACT
 App.js
 --------------
 
-# 컴포넌트 만들기
+### 컴포넌트 만들기
 
 <p>
 
@@ -19,7 +19,7 @@ App.js
 
 </p>
 
-# 클래스 형태의 컴포넌트
+### 클래스 형태의 컴포넌트
 
 <p>
 
@@ -27,7 +27,7 @@ App.js
 
 </p>
 
-# 컴포넌트 내보내기
+### 컴포넌트 내보내기
 
 <p>
 
@@ -41,7 +41,7 @@ App.js
 index.js
 -----------------
 
-# 다른 파일에서 컴포넌트 불러오기
+### 다른 파일에서 컴포넌트 불러오기
 
 <p>
 
@@ -50,12 +50,12 @@ index.js
 
 </p>
 
-# ReactDom.render
+### ReactDom.render
 
 <p>
 
 * 첫번째 파라미터: 렌더링 할 결과물 (<App />)
-* 두번째 파라미터: 컴포넌트를 어떤 DOM에 그릴지. (/public/index.html <div id="root"></div>)
+* 두번째 파라미터: 컴포넌트를 어떤 DOM에 그릴지. (root)
 
 <pre><code>ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();

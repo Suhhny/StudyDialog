@@ -181,3 +181,81 @@ import './App.css'
 </div>   
 ~~~~~~~~~~~~~~~~~~
 
+Props & State
+-----------------------
+
+### props
+
+* 부모 컴포넌트가 자식 컴포넌트에게 주는 값
+* 받아온 props는 수정할 수 없다.
+* 조회할 땐 -> this.props.name
+* 컴포넌트 불러오고 렌더링하기
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+render() {
+  return (
+    <MyName name="리액트" />
+  );
+}
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+> defaultProps : props의 기본값 설정
+>> static defaultProps = {
+>>    name: '기본이름'
+>> }
+
+### state
+
+* 동적인 데이터 다루기
+* 컴포넌트 안에서 state 정의
+
+~~~~~~~~~~~~~~~~~~~~~~
+state = {
+  number: 0
+}
+~~~~~~~~~~~~~~~~~~~~~~
+
+* 메소드 작성 & this.setState
+
+~~~~~~~~~~~~~~~~~~~~~~
+handleIncrease = () => {
+  this.setState({
+    number: this.state.number + 1
+  });
+}
+~~~~~~~~~~~~~~~~~~~~~~
+
+* this.setState 함수가 호출되면 컴포넌트가 리렌더링한다.
+* 전개 연산자: ...
+
+~~~~~~~~~~~~~~~~~~~~~~
+state = {
+  number: 0,
+  foo: {
+    bar: 0,
+    foobar: 1
+  }
+}
+
+//일때, 
+
+this.setState({
+  number: 0,
+  foo: {
+    ...this.state.foo,
+    foobar: 2
+  }
+});
+~~~~~~~~~~~~~~~~~~~~~~
+
+Event 
+--------------------
+
+* CamelCase
+* 이벤트에 전달해주는 값은 함수이다.
+
+~~~~~~~~~~~~~~~~~~~~~~
+<button onClick={this.handleIncrease}>+</button>
+~~~~~~~~~~~~~~~~~~~~~~
+        

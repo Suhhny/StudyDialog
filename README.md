@@ -1,9 +1,6 @@
 StudyDialog
 ===========
 
-
-
-
-
+* React
 * Redux
-* Javascript
+

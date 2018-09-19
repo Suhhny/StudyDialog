@@ -1,4 +1,4 @@
-REACT_1
+REACT
 ===================
 
 App.js
@@ -258,4 +258,62 @@ Event
 ~~~~~~~~~~~~~~~~~~~~~~
 <button onClick={this.handleIncrease}>+</button>
 ~~~~~~~~~~~~~~~~~~~~~~
-        
+
+LifeCycle API
+--------------------
+
+### 컴포넌트 초기 생성 
+
+* constructor: 컴포넌트 생성자 함수. babel이 있기때문에 쓰지 않아도 props, state를 자동으로 쓸 수 있다.
+
+~~~~~~~~~~~~~~~~~~~~~
+constructor(props){
+  super(props);
+}
+~~~~~~~~~~~~~~~~~~~~~
+
+* componentDidMount: 컴포넌트가 화면에 나타날 때 호출되는 API.
+
+~~~~~~~~~~~~~~~~~~~~~
+componentDidMount() {
+  // 외부 라이브러리 연동: D3, masonry, etc
+  // 컴포넌트에서 필요한 데이터 요청: Ajax, GraphQL, etc
+  // DOM 에 관련된 작업: 스크롤 설정, 크기 읽어오기 등
+}
+~~~~~~~~~~~~~~~~~~~~~
+
+*******************************
+
+### 컴포넌트 업데이트
+
+* static getDerivedStateFromProps(): props로 받아온 값을 state로 동기화하는 작업을 해야 할 때 사용하는 API.
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+static getDerivedStateFromProps(nextProps, prevState) {
+  // 여기서는 setState 를 하는 것이 아니라
+  // 특정 props 가 바뀔 때 설정하고 설정하고 싶은 state 값을 리턴하는 형태로
+  // 사용됩니다.
+  /*
+  if (nextProps.value !== prevState.value) {
+    return { value: nextProps.value };
+  }
+  return null; // null 을 리턴하면 따로 업데이트 할 것은 없다라는 의미
+  */
+}
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+* shouldComponentUpdate: 컴포넌트 최적화. 변화가 발생한 부분을 Virtual DOM에만 렌더링한다.
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+shouldComponentUpdate(nextProps, nextState) {
+  // return false 하면 업데이트를 안함
+  // return this.props.checked !== nextProps.checked
+  return true;
+}
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+* getSnapshotBeforeUpdate(): 
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~

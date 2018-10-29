@@ -4,7 +4,7 @@
 import * as types from './ActionTypes';
 
 export const increment = () => ({
-    type: types.INCREMENT
+    type: types.INCREMENT      //'INCREMENT'
 });
 
 export const decrement = () => ({

@@ -8,7 +8,8 @@ React
 -------------------
 
 Basic, </br>
-LifeCycle
+LifeCycle, </br>
+Application
 
 Redux
 -------------------

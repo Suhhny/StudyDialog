@@ -1,14 +1,30 @@
 StudyDialog
-===========
+==============
+
+Records of memorable contents
+
 
 React
 -------------------
 
+Basic, </br>
+LifeCycle, </br>
+Application
+
 Redux
 -------------------
+
+Example Exercises ( Clicker), </br>
+Sparklines Library
+
+Javascript
+-------------------
+
+Basic, </br>
+Server Status Management,
 
 HTML & CSS
 -------------------
 
-
-<p>Suhhny</p>
+Flexbox </br>
+not much.

@@ -16,7 +16,7 @@ Redux
 -------------------
 
 Example Exercises ( Clicker), </br>
-Sparklines Library
+Sparklines Library </br>
 createAction, handleActions for ducks constructure of actions
 
 Javascript

@@ -17,6 +17,7 @@ Redux
 
 Example Exercises ( Clicker), </br>
 Sparklines Library
+createAction, handleActions for ducks constructure of actions
 
 Javascript
 -------------------
@@ -28,4 +29,3 @@ HTML & CSS
 -------------------
 
 Flexbox </br>
-not much.

@@ -34,3 +34,8 @@ CSS > max-width
 max-width: 100%;
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+CSS > textDecoration
+-------------------------------
+
+inline-through 취소선

@@ -29,6 +29,17 @@ StudyDialog
 * package.json > scripts
 * module
 
+***ReactNative***
+
+* API
+* Component
+* react-native-navigation
+* Screen LifeCycle
+
+***flow***
+
+* React Props, State
+
 ***Mongoose***
 
 

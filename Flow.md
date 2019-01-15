@@ -7,7 +7,8 @@ Flow
 
 ```javascript
 type Props = {
-	foo: number
+	foo: number,
+	poo: Array<{a: number, b: string}>
 };
 
 type State = {

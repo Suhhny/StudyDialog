@@ -29,6 +29,9 @@ StudyDialog
 * package.json > scripts
 * module
 
+***Socket.io***
+
+
 ***Mongoose***
 
 

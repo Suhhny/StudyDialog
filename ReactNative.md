@@ -73,6 +73,38 @@ componentDidDisappear() {
 }
 ```
 
+***react-native-licalization***
+
+* Localized String
+
+```javascript
+import LocalizedStrings from 'react-native-localization';
+
+const STRING = new LocalizedStrings({
+ 	kr: {
+		title: '공지사항',
+	},
+  	en: {
+    		title: 'Notice',
+  	},
+});
+```
+
+***native-base***
+
+* Anatomy
+
+```jsx
+<Container>
+	<Header>
+		<Body></Body>
+	</Header>
+	<Content>
+
+	</Content>
+	<Footer />
+</Container>
+```
 
 ***react-native-navigation***
 

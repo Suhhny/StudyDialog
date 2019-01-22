@@ -106,6 +106,29 @@ const STRING = new LocalizedStrings({
 </Container>
 ```
 
+***react-native-elements***
+
+* Icon
+* Slider
+* CheckBox
+
+```javascript
+<View style={ style.slider }>
+	<Slider
+		value={ birth }
+                minimumValue={1900}
+                maximumValue={2019}
+                step={1}
+                minimumTrackTintColor={'#f56c50'}
+                maximumTrackTintColor={'#d0d0d4'}
+                thumbStyle={ style.sliderThumb }
+                thumbTintColor={'#f56c50'}
+                onValueChange={ this._birth_picker_value }
+	/>
+        <Text>{ STRING.birth }: { birth }</Text>
+</View>
+```
+
 ***react-native-navigation***
 
 * First screen once the app is lauched

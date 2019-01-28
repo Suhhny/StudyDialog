@@ -31,3 +31,9 @@ MyComponent.defaultProps = {
 	foo: 'bar'
 }
 ```
+
+* Array
+
+```javascript
+arr1: Array<{obj1: string, obj2: number}>
+```
